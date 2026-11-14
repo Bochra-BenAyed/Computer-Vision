@@ -1,0 +1,18 @@
+# Computer vision
+opencv-python>=4.8
+numpy>=1.24
+ultralytics>=8.3      # YOLO (also installs PyTorch)
+
+# Data / time series
+pandas>=2.0
+
+# Database
+sqlalchemy>=2.0
+psycopg2-binary>=2.9  # PostgreSQL driver
+
+# Plots and notebooks
+matplotlib>=3.7
+jupyter>=1.0
+
+# Tests
+pytest>=7.0
