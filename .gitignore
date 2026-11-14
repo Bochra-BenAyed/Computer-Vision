@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Secrets / local config (never commit passwords) ---
+.env
+*.env.local
+
+# --- Large files: videos, model weights, outputs ---
+# Videos and weights are too big for Git. Share them via a drive link instead.
+data/videos/*
+!data/videos/.gitkeep
+data/samples/*
+!data/samples/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.mp4
+*.avi
+*.mkv
+*.pt
+*.onnx
+*.weights
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
